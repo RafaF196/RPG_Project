@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6503385334867422232}
   - component: {fileID: 983796091}
   - component: {fileID: 983796092}
+  - component: {fileID: 6717773063745848927}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -95,10 +96,10 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.3
-  m_Speed: 8
-  m_Acceleration: 200
+  m_Speed: 5.66
+  m_Acceleration: 60
   avoidancePriority: 50
-  m_AngularSpeed: 180
+  m_AngularSpeed: 5000
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -107,6 +108,25 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &6717773063745848927
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6503385334867422238}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
+  m_Controller: {fileID: 9100000, guid: 48b4bf71e6ff0d840b93b2633c63ef47, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &6503385334963313919
 PrefabInstance:
   m_ObjectHideFlags: 0
