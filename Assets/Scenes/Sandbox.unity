@@ -1530,14 +1530,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 983796092, guid: fecaf246496a11545b48523394327096, type: 3}
-      propertyPath: m_Acceleration
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 983796092, guid: fecaf246496a11545b48523394327096, type: 3}
-      propertyPath: m_AngularSpeed
-      value: 5000
-      objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_LocalPosition.x
