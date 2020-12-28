@@ -1,24 +1,21 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using RPG.Core;
 using UnityEngine;
 using UnityEngine.AI;
-using RPG.Combat;
 
 namespace RPG.Movement
 {
-    public class Mover : MonoBehaviour
+    public class Mover : MonoBehaviour, IAction
     {
         [SerializeField] Transform target;
 
         NavMeshAgent navMeshAgent;
 
-        private void Start()
-        {
+        private void Start() {
             navMeshAgent = GetComponent<NavMeshAgent>();
         }
 
-        // Update is called once per frame
         void Update()
         {
             UpdateAnimator();
@@ -26,17 +23,17 @@ namespace RPG.Movement
 
         public void StartMoveAction(Vector3 destination)
         {
-            GetComponent<Fighter>().Cancel();
+            GetComponent<ActionScheduler>().StartAction(this);
             MoveTo(destination);
         }
 
         public void MoveTo(Vector3 destination)
         {
+            navMeshAgent.destination = destination;
             navMeshAgent.isStopped = false;
-            GetComponent<NavMeshAgent>().destination = destination;
         }
 
-        public void Stop()
+        public void Cancel()
         {
             navMeshAgent.isStopped = true;
         }

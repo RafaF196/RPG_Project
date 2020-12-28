@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6717773063745848927}
   - component: {fileID: 6503385334173295974}
   - component: {fileID: 536175180715949441}
+  - component: {fileID: 2249535169218524949}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -88,6 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ff905171bbf214bb9f41844ec1ba60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!195 &983796092
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -151,6 +153,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21c8b9cba06528a4e99ad59d669e05a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponRange: 2
+--- !u!114 &2249535169218524949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6503385334867422238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a86f3140f4cebc49b86857f4b797f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &6503385334963313919
