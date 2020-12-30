@@ -76,20 +76,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 536175180715949441, guid: fecaf246496a11545b48523394327096,
+        type: 3}
+      propertyPath: weaponRange
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.13476944
       objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.05493498
       objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.23339844
       objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
