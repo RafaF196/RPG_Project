@@ -39,7 +39,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseDistance: 6
-  suspicionTime: 5
+  suspicionTime: 4
+  patrolPath: {fileID: 0}
+  waypointTolerance: 0.5
+  dwellingTime: 1.5
 --- !u!1001 &221338988596573523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56,6 +59,11 @@ PrefabInstance:
       propertyPath: weaponRange
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 536175180715949441, guid: fecaf246496a11545b48523394327096,
+        type: 3}
+      propertyPath: weaponDamage
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4818131285203717497, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: health
@@ -64,22 +72,22 @@ PrefabInstance:
     - target: {fileID: 4818131285203717497, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: healthPoints
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.66
+      value: 7.03
       objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.36
+      value: 0.29
       objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.159999
+      value: 8.41
       objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
@@ -124,7 +132,7 @@ PrefabInstance:
     - target: {fileID: 6503385334867422238, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_Name
-      value: Enemy (1)
+      value: Enemy (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fecaf246496a11545b48523394327096, type: 3}
