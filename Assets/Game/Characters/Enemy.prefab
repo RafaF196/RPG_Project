@@ -43,6 +43,7 @@ MonoBehaviour:
   patrolPath: {fileID: 0}
   waypointTolerance: 0.5
   dwellingTime: 1.5
+  patrolSpeedFraction: 0.25
 --- !u!1001 &221338988596573523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50,9 +51,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 983796091, guid: fecaf246496a11545b48523394327096, type: 3}
+      propertyPath: maxSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 983796092, guid: fecaf246496a11545b48523394327096, type: 3}
       propertyPath: m_Speed
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 536175180715949441, guid: fecaf246496a11545b48523394327096,
         type: 3}
@@ -77,17 +82,17 @@ PrefabInstance:
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.03
+      value: 2.53
       objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.29
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.41
+      value: 17.1
       objectReference: {fileID: 0}
     - target: {fileID: 6503385334867422234, guid: fecaf246496a11545b48523394327096,
         type: 3}
@@ -132,7 +137,7 @@ PrefabInstance:
     - target: {fileID: 6503385334867422238, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: m_Name
-      value: Enemy (2)
+      value: Enemy (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fecaf246496a11545b48523394327096, type: 3}
