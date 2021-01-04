@@ -13,8 +13,16 @@ namespace RPG.SceneManagement
         {
             if (other.tag == "Player")
             {
-                SceneManager.LoadScene(sceneToLoad);
+                StartCoroutine(Transition());   
             }
+        }
+
+        private IEnumerator Transition()
+        {
+            DontDestroyOnLoad(gameObject);
+            yield return SceneManager.LoadSceneAsync(sceneToLoad);
+            print("Scene loaded");
+            Destroy(gameObject);
         }
     }
 }
