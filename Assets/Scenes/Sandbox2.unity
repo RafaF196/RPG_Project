@@ -208,6 +208,21 @@ PrefabInstance:
       propertyPath: id
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1214145004756177002, guid: cabbe91f4af648749b7cdda0868cd53d,
+        type: 3}
+      propertyPath: fadeOutTime
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214145004756177002, guid: cabbe91f4af648749b7cdda0868cd53d,
+        type: 3}
+      propertyPath: fadedTime
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214145004756177002, guid: cabbe91f4af648749b7cdda0868cd53d,
+        type: 3}
+      propertyPath: fadeInTime
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 5032745023226356800, guid: cabbe91f4af648749b7cdda0868cd53d,
         type: 3}
       propertyPath: m_LocalPosition.y
