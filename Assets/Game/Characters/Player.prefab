@@ -87,12 +87,87 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bfbe2e8b331e2cc42be1591f949c0e41, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+--- !u!4 &7847058206616631901 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403948, guid: 679ff741e12a7e740819ede24a7000b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 7847058206616753073}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7847058206616689205 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 461188, guid: 679ff741e12a7e740819ede24a7000b7,
     type: 3}
   m_PrefabInstance: {fileID: 7847058206616753073}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8287523932917270411
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7847058206616631901}
+    m_Modifications:
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085933183778429760, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052269107915044456, guid: 1b133b23dde987c44ba85087e64503c7,
+        type: 3}
+      propertyPath: m_Name
+      value: Equipped Bow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b133b23dde987c44ba85087e64503c7, type: 3}
 --- !u!1001 &9124632762409027195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -137,6 +212,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ba17334a11522ca4b9f4e8ebca9d26eb,
         type: 2}
+    - target: {fileID: 536175180715949441, guid: fecaf246496a11545b48523394327096,
+        type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 7847058206616631901}
+    - target: {fileID: 536175180715949441, guid: fecaf246496a11545b48523394327096,
+        type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 7847058206616689205}
     - target: {fileID: 6383059079523365955, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: uniqueIdentifier
