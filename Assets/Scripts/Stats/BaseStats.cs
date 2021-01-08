@@ -9,5 +9,6 @@ namespace RPG.Stats
         [Range(1, 100)]
         [SerializeField] int startingLevel = 1;
         [SerializeField] CharacterClass characterClass;
+        [SerializeField] Progression progression = null;
     }
 }
