@@ -4858,9 +4858,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16f1cab5ca72e84f89497673faa3e9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   isHoming: 0
   speed: 10
+  hitEffect: {fileID: 2302457091093092515, guid: 69d1b1037536b504884c93bb73d662db,
+    type: 3}
+  maxLifeTime: 10
+  destroyOnHit:
+  - {fileID: 1155489603979553069}
+  lifeAfterImpact: 0.05
 --- !u!65 &1860518063858272012
 BoxCollider:
   m_ObjectHideFlags: 0

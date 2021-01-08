@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 627940848807106676}
   - component: {fileID: 1860518063858272012}
   m_Layer: 0
-  m_Name: ArrowProjectile
+  m_Name: Root Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,8 +192,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16f1cab5ca72e84f89497673faa3e9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  isHoming: 1
   speed: 25
+  hitEffect: {fileID: 0}
+  maxLifeTime: 10
+  destroyOnHit: []
+  lifeAfterImpact: 0.02
 --- !u!65 &1860518063858272012
 BoxCollider:
   m_ObjectHideFlags: 0
