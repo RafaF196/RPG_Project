@@ -367,6 +367,32 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -4.7868195
       objectReference: {fileID: 0}
+    - target: {fileID: 4874438051516025891, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874438051516025891, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874438051516025891, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162372320946809618, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: ba17334a11522ca4b9f4e8ebca9d26eb,
+        type: 2}
+    - target: {fileID: 6162372320946809618, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49a22b9baabbedc489fe077dfe803b44, type: 3}
 --- !u!4 &1185155976 stripped

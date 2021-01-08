@@ -1425,6 +1425,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543114197}
     m_Modifications:
+    - target: {fileID: 316020391913605330, guid: 634c4a30466b5624abc2fb43aaa7beb9,
+        type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 6436470847837296969, guid: 634c4a30466b5624abc2fb43aaa7beb9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1881,6 +1886,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ba17334a11522ca4b9f4e8ebca9d26eb,
         type: 2}
+    - target: {fileID: 316020391913605330, guid: 634c4a30466b5624abc2fb43aaa7beb9,
+        type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 6436470847837296969, guid: 634c4a30466b5624abc2fb43aaa7beb9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1972,6 +1982,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543114197}
     m_Modifications:
+    - target: {fileID: 316020391913605330, guid: 634c4a30466b5624abc2fb43aaa7beb9,
+        type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 4742055401942267946, guid: 634c4a30466b5624abc2fb43aaa7beb9,
         type: 3}
       propertyPath: healthPoints
@@ -2890,6 +2905,11 @@ PrefabInstance:
       propertyPath: m_Acceleration
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 316020391913605330, guid: 634c4a30466b5624abc2fb43aaa7beb9,
+        type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     - target: {fileID: 6436470847837296969, guid: 634c4a30466b5624abc2fb43aaa7beb9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3307,6 +3327,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 496ef897ec6608944b6afc035007f991,
         type: 2}
+    - target: {fileID: 6162372320946809618, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: defaultWeaponName
+      value: Unarmed
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49a22b9baabbedc489fe077dfe803b44, type: 3}
 --- !u!4 &3323248406538332552
