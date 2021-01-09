@@ -96,6 +96,11 @@ PrefabInstance:
       propertyPath: rightHandTransform
       value: 
       objectReference: {fileID: 6281779427645438777}
+    - target: {fileID: 1830193612366797548, guid: fecaf246496a11545b48523394327096,
+        type: 3}
+      propertyPath: characterClass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4818131285203717497, guid: fecaf246496a11545b48523394327096,
         type: 3}
       propertyPath: health
