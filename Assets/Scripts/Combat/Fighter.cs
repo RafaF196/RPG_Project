@@ -5,10 +5,11 @@ using System;
 using RPG.Saving;
 using RPG.Resources;
 using RPG.Stats;
+using System.Collections.Generic;
 
 namespace RPG.Combat
 {
-    public class Fighter : MonoBehaviour, IAction, ISaveable
+    public class Fighter : MonoBehaviour, IAction, ISaveable, IModifierProvider
     {
         [SerializeField] float timeBetweenAttacks = 1f;
 
@@ -121,6 +122,22 @@ namespace RPG.Combat
             GetComponent<Animator>().SetTrigger("stopAttack");
             GetComponent<Mover>().Cancel();
             target = null;
+        }
+
+        public IEnumerable<float> GetAdditiveModifiers(Stat stat)
+        {
+            if (stat == Stat.Damage)
+            {
+                yield return currentWeapon.getWeaponDamage();
+            }
+        }
+
+        public IEnumerable<float> GetPercentageModifiers(Stat stat)
+        {
+            if (stat == Stat.Damage)
+            {
+                yield return currentWeapon.getPercentageBonus();
+            }
         }
 
         public object CaptureState()
