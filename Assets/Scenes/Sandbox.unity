@@ -710,7 +710,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.322785, y: 1}
+    m_SensorSize: {x: 2.318612, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3048,7 +3048,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061974689}
-  m_LocalRotation: {x: 0.07073295, y: -0.8567494, z: 0.12216933, w: 0.49603626}
+  m_LocalRotation: {x: 0.07073294, y: -0.8567495, z: 0.12216933, w: 0.49603623}
   m_LocalPosition: {x: 10.0001335, y: 2.4729695, z: 10.200954}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3104,7 +3104,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.322785, y: 1}
+    m_SensorSize: {x: 2.318612, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3336,6 +3336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: defaultWeaponName
       value: Unarmed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6864231130167464089, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49a22b9baabbedc489fe077dfe803b44, type: 3}

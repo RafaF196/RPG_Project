@@ -4,6 +4,7 @@ using RPG.Core;
 using System;
 using RPG.Saving;
 using RPG.Resources;
+using RPG.Stats;
 
 namespace RPG.Combat
 {
@@ -81,13 +82,15 @@ namespace RPG.Combat
         {
             if (target == null) return;
 
+            float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
+
             if (currentWeapon.hasProjectile())
             {
-                currentWeapon.LaunchProjectile(leftHandTransform, rightHandTransform, target, gameObject);
+                currentWeapon.LaunchProjectile(leftHandTransform, rightHandTransform, target, gameObject, damage);
             }
             else
             {
-                target.TakeDamage(gameObject, currentWeapon.getWeaponDamage());
+                target.TakeDamage(gameObject, damage);
             }
         }
 
