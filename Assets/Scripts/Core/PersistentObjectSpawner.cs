@@ -3,23 +3,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PersistentObjectSpawner : MonoBehaviour
+namespace RPG.Core
 {
-    [SerializeField] GameObject persistentObjectPrefab;
-
-    static bool hasSpawned = false;
-
-    private void Awake()
+    public class PersistentObjectSpawner : MonoBehaviour
     {
-        if (hasSpawned) return;
+        [SerializeField] GameObject persistentObjectPrefab;
 
-        SpawnPersistenObjects();
-        hasSpawned = true;
-    }
+        static bool hasSpawned = false;
 
-    private void SpawnPersistenObjects()
-    {
-        GameObject persistentObject = Instantiate(persistentObjectPrefab);
-        DontDestroyOnLoad(persistentObject);
+        private void Awake()
+        {
+            if (hasSpawned) return;
+
+            SpawnPersistenObjects();
+            hasSpawned = true;
+        }
+
+        private void SpawnPersistenObjects()
+        {
+            GameObject persistentObject = Instantiate(persistentObjectPrefab);
+            DontDestroyOnLoad(persistentObject);
+        }
     }
 }

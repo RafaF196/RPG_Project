@@ -16,7 +16,7 @@ namespace RPG.Movement
         Health health;
         NavMeshAgent navMeshAgent;
 
-        private void Start() {
+        private void Awake() {
             health = GetComponent<Health>();
             navMeshAgent = GetComponent<NavMeshAgent>();
         }
@@ -64,10 +64,10 @@ namespace RPG.Movement
         public void RestoreState(object state)
         {
             Dictionary<string, object> data = (Dictionary<string, object>)state;
-            GetComponent<NavMeshAgent>().enabled = false;
+            navMeshAgent.enabled = false;
             transform.position = ((SerializableVector3)data["position"]).ToVector();
             transform.eulerAngles = ((SerializableVector3)data["rotation"]).ToVector();
-            GetComponent<NavMeshAgent>().enabled = true;
+            navMeshAgent.enabled = true;
         }
     }
 }
