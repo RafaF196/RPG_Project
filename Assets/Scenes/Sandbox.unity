@@ -3189,6 +3189,21 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 10000
       objectReference: {fileID: 0}
+    - target: {fileID: 2043434667646541576, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043434667646541576, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043434667646541576, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3194443717193360330, guid: 49a22b9baabbedc489fe077dfe803b44,
         type: 3}
       propertyPath: m_Name
@@ -3249,6 +3264,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3194443717362984240, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 2.318612
+      objectReference: {fileID: 0}
     - target: {fileID: 3194443717362984243, guid: 49a22b9baabbedc489fe077dfe803b44,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -3278,6 +3298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.147753
+      objectReference: {fileID: 0}
+    - target: {fileID: 3194443717598993038, guid: 49a22b9baabbedc489fe077dfe803b44,
+        type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 2.318612
       objectReference: {fileID: 0}
     - target: {fileID: 3340404146339565317, guid: 49a22b9baabbedc489fe077dfe803b44,
         type: 3}
