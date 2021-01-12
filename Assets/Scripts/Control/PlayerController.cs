@@ -22,6 +22,7 @@ namespace RPG.Control
 
         [SerializeField] CursorMapping[] cursorMappings = null;
         [SerializeField] float maxNavMeshProjectionDistance = 1f;
+        [SerializeField] float rayCastRadius = 0.2f;
 
         private void Awake()
         {
@@ -63,7 +64,7 @@ namespace RPG.Control
 
         RaycastHit[] RaycastAllSorted()
         {
-            RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
+            RaycastHit[] hits = Physics.SphereCastAll(GetMouseRay(), rayCastRadius);
 
             float[] distances = new float[hits.Length];
             for (int i = 0; i < hits.Length; i++)
